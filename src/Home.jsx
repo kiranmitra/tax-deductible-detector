@@ -18,7 +18,10 @@ function Home() {
 
   const keywords = [
     "uber", "client", "office", "travel", "equipment",
-    "training", "conference", "laptop", "software"
+    "training", "conference", "laptop", "software", "work", "meeting",
+    "consulting", "marketing", "advertising", "hosting", "domain",
+    "tools", "legal", "supplies", "phone", "internet",
+    "education", "books", "seminar", "printer", "business", "zoom"
   ];
 
   function handleAdd() {
