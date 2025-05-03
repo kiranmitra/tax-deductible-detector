@@ -2,7 +2,15 @@
 
 A simple web app to help users track expenses and estimate quarterly tax write-offs.
 
-### 🏃How To Run
+### ⚙️ Tech Stack
+| Category         | Technology        |
+| ---------------- | ----------------- |
+| Language         | JavaScript        |
+| Framework        | React             |
+| Build Tool       | Vite              |
+| Styling          | CSS               |
+
+### 🏃 How To Run
 
 npm install vite <br />
 npx vite
