@@ -1,0 +1,65 @@
+/* ---- layout ---- */
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ---- input row ---- */
+.input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.expense-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #0056b3;
+}
+
+/* ---- list entries ---- */
+.entry {
+  margin-bottom: 0.5rem;
+}
+
+.entry-text {
+  margin-right: 4px;
+}
+
+.dash {
+  color: #555;
+}
+
+.tag {
+  font-weight: bold;
+}
+
+.tag.yes {
+  color: green;
+}
+
+.tag.no {
+  color: red;
+}
